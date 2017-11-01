@@ -3,6 +3,9 @@
 rcu_components:
   - STB
 # the valid options are ORACLE, SQLSERVER, IBMBD2, MYSQL, or EBR
+rcu_db_as: true
+rcu_db_role: SYSDBA
+rcu_db_user: SYS
 rcu_db_type: ORACLE
 rcu_sys_password: bad_sys_password
 rcu_schema_password: terrible_schema_password
