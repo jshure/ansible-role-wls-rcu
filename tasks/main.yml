@@ -5,7 +5,7 @@
 #
 
 - name: create the temp dir if needed
-  file: path= "{{ rcu_temp_dir }}" state=directory mode=0700
+  file: path="{{ rcu_temp_dir }}" state=directory mode=0700
 
 - name: create the passwords, sys first, then one for each component
   template:
